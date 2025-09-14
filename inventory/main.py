@@ -14,9 +14,9 @@ app.add_middleware(
 )
 
 redis = get_redis_connection(
-  host="redis-10788.c308.sa-east-1-1.ec2.redns.redis-cloud.com",
-  port = 10788,
-  password = "RY9rjhlFDkqAAP5QdAOghOJfGuOGIv5w",
+  host="closed",
+  port = 0,
+  password = "closed",
   decode_responses=True
 )  # Cria conexão com o banco Redis
 
